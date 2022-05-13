@@ -5,83 +5,58 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>CSSMemSlider</title>
+  <title>CSSMemeSlider</title>
 </head>
 <body>
-  <div class="slider">
-    <input type="radio" name="slider" id="slide1" checked>
-    <input type="radio" name="slider" id="slide2">
-    <input type="radio" name="slider" id="slide3">
-    <input type="radio" name="slider" id="slide4">
-    <input type="radio" name="slider" id="slide5">
-    <input type="radio" name="slider" id="slide6">
-    <input type="radio" name="slider" id="slide7">
-    <div id="slides">
-      <div id="overflow">
-        <div class="inner">
-          <div class="slide slide1">
-            <div class="slide-content">
-              <h2>Image 1</h2>
-              <p>Text</p>
-            </div>
-          </div>
-          <div class="slide slide2">
-            <div class="slide-content">
-              <h2>Image 2</h2>
-              <p>Text</p>
-            </div>
-          </div>
-          <div class="slide slide3">
-            <div class="slide-content">
-              <h2>Image 3</h2>
-              <p>Text</p>
-            </div>
-          </div>
-          <div class="slide slide4">
-            <div class="slide-content">
-              <h2>Image 4</h2>
-              <p>Text</p>
-            </div>
-          </div>
-          <div class="slide slide5">
-            <div class="slide-content">
-              <h2>Image 5</h2>
-              <p>Text</p>
-            </div>
-          </div>
-          <div class="slide slide6">
-            <div class="slide-content">
-              <h2>Image 6</h2>
-              <p>Text</p>
-            </div>
-          </div>
-          <div class="slide slide7">
-            <div class="slide-content">
-              <h2>Image 7</h2>
-              <p>Text</p>
-            </div>
+  <div class="container">
+    <header><h1 class="title background-glass">CSS Meme Slider RSS</h1></header>
+    
+    <input type="radio" name="slides" id="slide1" checked>
+    <input type="radio" name="slides" id="slide2">
+    <input type="radio" name="slides" id="slide3">
+    <input type="radio" name="slides" id="slide4">
+    <input type="radio" name="slides" id="slide5">
+    <input type="radio" name="slides" id="slide6">
+    <input type="radio" name="slides" id="slide7">
+
+    <div id="slider-wrapper" class="background-glass">
+      <div id="slides">
+        <div id="overflow">
+          <div class="inner">
+            <div class="slide slide1"><img src="memes/meme1.png" alt="meme1"></div>
+            <div class="slide slide2"><img src="memes/meme2.png" alt="meme2"></div>
+            <div class="slide slide3"><img src="memes/meme3.png" alt="meme3"></div>
+            <div class="slide slide4"><img src="memes/meme4.png" alt="meme4"></div>
+            <div class="slide slide5"><img src="memes/meme5.png" alt="meme5"></div>
+            <div class="slide slide6"><img src="memes/meme6.png" alt="meme6"></div>
+            <div class="slide slide7"><img src="memes/meme7.png" alt="meme7"></div>
           </div>
         </div>
       </div>
+      <div id="sub-slider">
+        <div id="controls">
+          <label for="slide1" class="buttons"></label>
+          <label for="slide2" class="buttons"></label>
+          <label for="slide3" class="buttons"></label>
+          <label for="slide4" class="buttons"></label>
+          <label for="slide5" class="buttons"></label>
+          <label for="slide6" class="buttons"></label>
+          <label for="slide7" class="buttons"></label>
+          <label for="slide8" class="buttons"></label>
+          <label for="slide9" class="buttons"></label>
+        </div>
+        <div id="text">
+          <div class="text1">Meme 1</div>
+          <div class="text2">Meme 2</div>
+          <div class="text3">Meme 3</div>
+          <div class="text4">Meme 4</div>
+          <div class="text5">Meme 5</div>
+          <div class="text6">Meme 6</div>
+          <div class="text7">Meme 7</div>
+        </div>
+      </div>
     </div>
-    <div id="controls">
-      <label for="slide1"></label>
-      <label for="slide2"></label>
-      <label for="slide3"></label>
-      <label for="slide4"></label>
-      <label for="slide5"></label>
-      <label for="slide6"></label>
-      <label for="slide7"></label>
-    </div>
-    <div id="buttons">
-      <label for="slide1"></label>
-      <label for="slide2"></label>
-      <label for="slide3"></label>
-      <label for="slide4"></label>
-      <label for="slide5"></label>
-      <label for="slide6"></label>
-      <label for="slide7"></label>
-    </div>
+
   </div>
 </body>
 </html>
