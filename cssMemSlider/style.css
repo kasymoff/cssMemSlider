@@ -92,7 +92,10 @@ input[type=radio] {
 }
 
 #controls {
-  width: 30%
+  display: flex;
+  justify-content: flex-end;
+  gap: .250rem;
+  width: 30%;
 }
 
 #text {
@@ -129,14 +132,11 @@ input[type=radio] {
   overflow: hidden;
 }
 
-#controls {
-  text-align: right;
-}
-
 #controls label {
-  display: inline-block;
-  width: 1rem;
+  display: flex;
+  width: 1.125rem;
   height: 1.5rem;
+  align-items: center;
 }
 
 #controls label:hover span {
@@ -192,7 +192,7 @@ input[type=radio] {
     width: 80%;
   }
   #controls {
-    text-align: center;
+    justify-content: center;
     width: 100%;
   }
   #text {
