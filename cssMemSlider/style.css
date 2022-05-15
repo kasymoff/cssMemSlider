@@ -130,7 +130,7 @@ input[type=radio] {
 }
 
 #controls {
-  text-align: center;
+  text-align: right;
 }
 
 #controls label {
@@ -180,7 +180,7 @@ input[type=radio] {
   display: inline-block;
   font-size: 2rem;
   width: 86rem;
-  text-align: center;
+  text-align: left;
 }
 
 @media (max-width: 900px) {
@@ -192,6 +192,7 @@ input[type=radio] {
     width: 80%;
   }
   #controls {
+    text-align: center;
     width: 100%;
   }
   #text {
